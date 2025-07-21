@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    color: white;
+    margin: 0 0 30px;
+    font-weight: 800;
+}
+
+h2{
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 31px auto 9px;
+}
+
+p{
+    margin: 9px 18px;
+    color: #353535;
+}
+
+button{
+    background-color: white;
+    color: #3D3D3D;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 9px 27px;
+}
+
+.unit-converter-container{
+    background-color: white;
+    margin: 0 0 23px;
+    width: 500px;
+    height: 109px;
+    text-align: center;
+}
+
+#error-message p{
+    color: #FF6666;
+    background-color: black;
+    padding: 4px;
+}
+
+#input-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 285px;
+    background-color: #6943FF;
+}
+
+#measurement-input{
+    font-size: 58px;
+    padding: 7px 6px 7px 20px;
+    width: 91px;
+    font-family: inherit;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    color: white;
+    border-radius: 5px;
+    margin: 0 0 25px;
+}
+
+#main-container{
+    width: 550px;
+    height: 729px;
+    margin: 0 auto;
+}
+
+#unit-conversion-section{
+    background-color: #F4F4F4;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mass-container{
+    margin: 0;
+}
